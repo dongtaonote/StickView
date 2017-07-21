@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rg_main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="89dp"
+    android:background="#FEFFFF"
+
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/rb_life_cosmetology"
+        style="@style/main_menu"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+
+    <RadioButton
+        android:id="@+id/rb_medical_cosmetology"
+        style="@style/main_menu"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" />
+
+    <RadioButton
+        android:id="@+id/rb_momentos_card"
+        style="@style/main_menu"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+
+    <RadioButton
+        android:id="@+id/rb_advocacy"
+        style="@style/main_menu"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" />
+
+    <RadioButton
+        android:id="@+id/rb_appointment"
+        style="@style/main_menu"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+</RadioGroup>

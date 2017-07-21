@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="layout_home_page_header" type="id"/>
+    <item name="viewpager_home_page_products" type="id"/>
+    <item name="layout_home_page_tabhost" type="id"/>
+    <item name="rv_discovery_content" type="id"/>
+    <item name="rl_top" type="id"/>
+    <item name="ll_content" type="id"/>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="这里提供四种悬停头部的方案" />
+
+    <TextView
+        android:id="@+id/coorninatorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="第一种：谷歌推荐的采用 CoordinatorLayout + AppBarLayout
+        + NestedScrollView + RecycleView" />
+
+
+    <TextView
+        android:id="@+id/scrollablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="第二种：采用ScrollableLayout自定义的view，\n也是我最终采用的实现方式" />
+
+    <TextView
+        android:id="@+id/stickerviewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="第三种：采用绘制头部view的方案，
+        不适合用于绘制动态的view比如TabLayout，适合用于Textview，Button这种死的控件,如果是动态的布局会导致绘制的结果和滑动不对"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/stickNaviLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/c_0"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="第四种：采用网上的StickNaviLayout方式去做，\n但是比如嵌套viewpager+recycleview时候滑动会有问题"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
