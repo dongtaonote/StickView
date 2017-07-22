@@ -14,4 +14,4 @@ sticknavi：采用自定义的LinearLayout方案实现，大体实现方案同�
 
 
 
-texttopview：采用继承NestedScrollView重写View实现，实现思路是把需要悬停的view照个相，然后draw在需要悬停的位置，优点：滑动顺滑，头部内容易扩展。缺点：如果悬停的控件是button、textview这些控件没有问题，如果悬停的控件是个TabLayout，或者是一些可以动态改变的控件，这个方案就会出问题。使用场景：用于悬停一些内容结构不会变动的头部。具体实现方案见简书
+texttopview：采用继承NestedScrollView重写View实现，实现思路是把需要悬停的view照个相，然后draw在需要悬停的位置，优点：滑动顺滑，头部内容易扩展，如果一个view需要悬停只需要给这个view加上一个tag String。缺点：如果悬停的控件是button、textview这些控件没有问题，如果悬停的控件是个TabLayout，或者是一些可以动态改变的控件，这个方案就会出问题。使用场景：用于悬停一些内容结构不会变动的头部。具体实现方案见简书
