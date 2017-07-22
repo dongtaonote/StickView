@@ -6,6 +6,10 @@ import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 
+
+/**
+ * 用于解决RecycleView在viewPager中展示不全的问题
+ */
 public class VerticalViewPager extends ViewPager implements NestedScrollingChild {
     public VerticalViewPager(Context context) {
         super(context);

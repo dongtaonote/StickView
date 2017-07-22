@@ -8,10 +8,6 @@ import android.view.ViewGroup;
 
 import com.example.stickview.R;
 
-/**
- * Created by Administrator on 2017/6/7 0007.
- */
-
 public class MyPagerAdapter extends PagerAdapter {
     private Context mContext;
 

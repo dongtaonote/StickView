@@ -11,6 +11,10 @@ import android.view.View;
 
 import java.lang.reflect.Field;
 
+/**
+ * 用于解决RecycleView的item不能全部展示的问题
+ */
+
 public class FullLinearLayout extends LinearLayoutManager {
 
     private static boolean canMakeInsetsDirty = true;

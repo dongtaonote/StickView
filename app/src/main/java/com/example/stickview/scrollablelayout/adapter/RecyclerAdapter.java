@@ -1,6 +1,4 @@
-package com.example.stickview.scrollablelayout.adapter;/**
- * Created by cpoopc on 2015/8/31.
- */
+package com.example.stickview.scrollablelayout.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
